@@ -47,10 +47,6 @@ self._saldo = value
 13)	  @property
     def nombre(self):
         return self._nombre
-
-
-
-
     @nombre.setter
     def nombre(self, value):
         if not isinstance(value, str):
@@ -70,7 +66,6 @@ self.velocidad = __velocidad
 @property
     def velocidad(self):
         return self._velocidad
-
     @velocidad.setter
     def velocidad(self, value):
         if (value <0 or value>200):
